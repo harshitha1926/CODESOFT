@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.transparent-header {
+  background-color: #f42b03;
+  background-image: linear-gradient(316deg, #f42b03 0%, #ffbe0b 74%);
+  color: #ffffff;
+  padding: 15px 0;
+  background-clip: content-box;
+  box-shadow: white;
+  border-radius: 2px;
+}
+
+.navbar {
+  color: #000000;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: rgba(251, 152, 1, 1);
+}
+
+.hero,
+.menu,
+.about,
+.contact {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hero h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #f80000;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #fffefe;
+  color: #000000;
+}
+
+.menu,
+.about,
+.contact {
+  color: #ffffff;
+  background-color: rgba(53, 50, 50, 0.397);
+}
+
+footer {
+  background-color: #ffa047;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
